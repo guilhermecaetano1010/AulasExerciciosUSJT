@@ -7,7 +7,7 @@ public class Salario {
         double percentual = 1.5;
         for(int ano = 2006; ano<= 2023; ano++){
             percentual *= 2;
-            System.out.println("Anooo: "+ ano +" Salário: "+salario+ " Percentual do ano seguinte: "+percentual);
+            System.out.println("Ano: "+ ano +" Salário: "+salario+ " Percentual do ano seguinte: "+percentual);
         }
         System.out.println(salario);
     }
