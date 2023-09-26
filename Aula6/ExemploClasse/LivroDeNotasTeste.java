@@ -4,8 +4,8 @@ import javax.swing.JOptionPane;
 
 public class LivroDeNotasTeste {
     public static void main(String[] args) {
-        LivroDeNotas livroDeNotas = new LivroDeNotas();
         String nomeDoCurso = JOptionPane.showInputDialog("Querido professor, qual o nome do curso?");
+        LivroDeNotas livroDeNotas = new LivroDeNotas(nomeDoCurso);
         livroDeNotas.setNomeDoCurso(nomeDoCurso);
         livroDeNotas.exibirMensagem(nomeDoCurso);
 

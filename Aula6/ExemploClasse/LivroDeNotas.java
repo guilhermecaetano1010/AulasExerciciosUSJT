@@ -3,6 +3,10 @@ package Aula6.ExemploClasse;
 public class LivroDeNotas {
     private String nomeDoCurso;
 
+    public LivroDeNotas (String nomeDoCurso){
+        this.nomeDoCurso = nomeDoCurso;
+    }
+
     public String getNomeDoCurso() {
         return nomeDoCurso;
     }
