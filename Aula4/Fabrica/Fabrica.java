@@ -35,6 +35,7 @@ public class Fabrica {
             if (salarioporcen > maiorSalario) {
                 maiorSalario = salarioporcen;
                 numeroMaior = numero;
+                System.out.println(numeroMaior);
             }
             totalSalarios += salarioporcen;
             totalPecas += pecas;
