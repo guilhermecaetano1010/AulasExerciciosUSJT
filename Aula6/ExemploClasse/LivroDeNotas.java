@@ -16,7 +16,7 @@ public class LivroDeNotas {
     }
 
     public void exibirMensagem(String nomeDoCurso){
-        System.out.printf("Bem vindo ao livro de notas %s", getNomeDoCurso());
+        System.out.printf("Bem vindo ao livro de notas %s\n", getNomeDoCurso());
         
     }
     
