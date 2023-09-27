@@ -1,5 +1,6 @@
 package ExerciciosSolucoes.Exercicio10;
 
+
 import java.util.Scanner;
 
 public class Exercicio10 {

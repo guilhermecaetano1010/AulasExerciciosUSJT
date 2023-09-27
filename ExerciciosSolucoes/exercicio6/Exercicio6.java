@@ -1,5 +1,6 @@
 package ExerciciosSolucoes.Exercicio6;
 
+
 import javax.swing.JOptionPane;
 
 public class Exercicio6 {

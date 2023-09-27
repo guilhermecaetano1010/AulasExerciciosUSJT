@@ -1,5 +1,6 @@
 package ExerciciosSolucoes.Exercicio15;
 
+
 import java.util.Scanner;
 
 public class Exercicio15 {
@@ -41,4 +42,5 @@ public class Exercicio15 {
 Seu programa deve calcular e exibir para o usuário os seguintes valores:
 Salário bruto, que é igual ao valor/hora multiplicado pelo número de horas trabalhadas.
 Salário líquido, que é igual ao salário bruto menos o imposto mais a comissão. Note que a comissão somente
-entrará nos cálculos caso o número de horas trabalhadas seja pelo menos 120. */
+entrará nos cálculos caso o número de horas trabalhadas seja pelo menos 120.
+ */
