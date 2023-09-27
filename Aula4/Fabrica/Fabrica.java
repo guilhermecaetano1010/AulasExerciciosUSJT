@@ -1,4 +1,4 @@
-package Aula4.Fabrica;
+package aula4.Fabrica;
 
 import java.util.Scanner;
 

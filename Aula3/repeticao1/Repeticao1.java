@@ -1,4 +1,4 @@
-package Aula3.repeticao1;
+package aula3.repeticao1;
 
 import javax.swing.JOptionPane;
 

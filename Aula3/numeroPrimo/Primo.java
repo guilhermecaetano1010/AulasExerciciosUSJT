@@ -1,4 +1,4 @@
-package Aula3.numeroPrimo;
+package aula3.numeroPrimo;
 
 import java.util.Scanner;
 

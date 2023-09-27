@@ -1,4 +1,4 @@
-package ExerciciosLacosDeRepeticao;
+package exerciciosLacosDeRepeticao;
 
 import javax.swing.JOptionPane;
 

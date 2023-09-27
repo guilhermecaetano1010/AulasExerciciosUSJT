@@ -1,4 +1,4 @@
-package Aula3.fatorial;
+package aula3.fatorial;
 import java.util.Scanner;
 public class Fatorial {
     public static void main(String[] args) {

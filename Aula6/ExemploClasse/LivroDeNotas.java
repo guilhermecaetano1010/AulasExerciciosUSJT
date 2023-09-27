@@ -1,4 +1,4 @@
-package Aula6.ExemploClasse;
+package aula6.ExemploClasse;
 
 public class LivroDeNotas {
     private String nomeDoCurso;

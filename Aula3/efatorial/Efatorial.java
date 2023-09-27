@@ -1,4 +1,4 @@
-package Aula3.efatorial;
+package aula3.efatorial;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Aula5.Quinze;
+package aula5.Quinze;
 
 import java.util.Scanner;
 

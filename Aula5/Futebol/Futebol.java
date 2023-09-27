@@ -1,4 +1,4 @@
-package Aula5.Futebol;
+package aula5.Futebol;
 
 import java.util.Scanner;
 

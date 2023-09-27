@@ -1,4 +1,4 @@
-package Aula3.salario;
+package aula3.salario;
 
 
 public class Salario {

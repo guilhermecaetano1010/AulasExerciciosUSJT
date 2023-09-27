@@ -1,4 +1,4 @@
-package Aula5.ValorDoS;
+package aula5.ValorDoS;
 
 import java.util.Scanner;
 

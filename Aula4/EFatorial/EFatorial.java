@@ -1,4 +1,4 @@
-package Aula4.EFatorial;
+package aula4.EFatorial;
 
 import java.util.Scanner;
 public class EFatorial {

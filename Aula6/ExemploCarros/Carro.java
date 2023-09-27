@@ -1,4 +1,4 @@
-package Aula6.ExemploCarros;
+package aula6.ExemploCarros;
 
 public class Carro {
     

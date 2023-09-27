@@ -1,4 +1,4 @@
-package Aula4.Fibonacci;
+package aula4.Fibonacci;
 
 import java.util.Scanner;
 

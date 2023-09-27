@@ -1,4 +1,4 @@
-package ExerciciosSolucoes.exercicio6;
+package exerciciosSolucoes.exercicio6;
 
 import javax.swing.JOptionPane;
 
