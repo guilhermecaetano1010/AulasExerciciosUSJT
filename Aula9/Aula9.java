@@ -9,7 +9,7 @@ Connection conexao =
 DriverManager.getConnection(
 
 //essa é a conhecida string de conexão
-"jdbc:mysql://localhost:3306/teste",
+"jdbc:mysql://localhost:3306/bukidatabase",
 "root",
 "1234"
 );
