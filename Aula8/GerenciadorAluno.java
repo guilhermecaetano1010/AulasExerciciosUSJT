@@ -35,7 +35,7 @@ public class GerenciadorAluno extends JFrame {
         JButton ok = new JButton("ok");
         ok.addActionListener(acao -> {
             if (login.getText().equals("root") &&
-                    senha.getText().equals("51")) {
+                    senha.getPassword().equals("51")) {
                 CrudAluno ca = new CrudAluno();
                 ca.desenhar();
                 setVisible(false);
