@@ -27,11 +27,11 @@ public class Personagem {
 
     void cacar() {
         if(energia>=2){
-            System.out.println(nome + "caçando");
+            System.out.println(nome + " caçando");
             energia -= 2;
         }
         else{
-            System.out.println(nome + "sem energia para caçar");
+            System.out.println(nome + " sem energia para caçar");
         }
         fome = Math.min(fome + 1, 10);
         sono = Math.min(sono + 1, 10);
@@ -39,22 +39,22 @@ public class Personagem {
     
     void comer(){
     if (fome >= 1) {
-        System.out.println(fome + "comendo");
+        System.out.println(fome + " comendo");
         energia = Math.min(energia + 1, 10);
         fome -= 1;
     } else{
-        System.out.println(nome + "sem sono");
+        System.out.println(nome + " sem sono");
     }
     }
 
     void dormir(){
         if (sono >= 1) {
-            System.out.println(sono + "dormindo");
+            System.out.println(sono + " dormindo");
             sono-=1;
             energia = energia + 1 <= 10 ? energia + 1 : 10;
         }
         else{
-            System.out.println(nome + "sem sono");
+            System.out.println(nome + " sem sono");
         }
             
        

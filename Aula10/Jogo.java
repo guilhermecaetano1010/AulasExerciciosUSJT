@@ -3,8 +3,8 @@ public class Jogo {
     public static void main(String[] args) throws InterruptedException {
             Personagem cacador = new Personagem(10, 0, 0);
             Personagem soneca = new Personagem(2,6,4);
-            soneca.nome = "Soneca";
-            cacador.nome = "John";
+            // soneca.nome = "Soneca";
+            // cacador.nome = "John";
         while (true) {
             cacador.cacar();
             soneca.dormir();
