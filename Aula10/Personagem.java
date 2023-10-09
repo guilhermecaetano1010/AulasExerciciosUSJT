@@ -1,10 +1,16 @@
 package Aula10;
 
 public class Personagem {
-    String nome;
+    private String nome;
     private int energia = 10;
     private int fome = 0;
     private int sono = 0;
+
+    public Personagem(String nome, int energia, int fome, int sono){
+        this (energia, fome, sono);
+        this.nome = nome;
+    }
+
 
     public Personagem(int energia, int fome, int sono){
         if (energia >= 0 && energia <= 10) {
