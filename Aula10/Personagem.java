@@ -39,7 +39,7 @@ public class Personagem {
     
     void comer(){
     if (fome >= 1) {
-        System.out.println(fome + " comendo");
+        System.out.println(nome + " comendo");
         energia = Math.min(energia + 1, 10);
         fome -= 1;
     } else{
@@ -49,7 +49,7 @@ public class Personagem {
 
     void dormir(){
         if (sono >= 1) {
-            System.out.println(sono + " dormindo");
+            System.out.println(nome + " dormindo");
             sono-=1;
             energia = energia + 1 <= 10 ? energia + 1 : 10;
         }
