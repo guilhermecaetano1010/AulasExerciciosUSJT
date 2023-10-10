@@ -12,7 +12,7 @@ public class Personagem {
     }
 
 
-    public Personagem(int energia, int fome, int sono){
+    private Personagem(int energia, int fome, int sono){
         if (energia >= 0 && energia <= 10) {
             this.energia = energia;
         }
