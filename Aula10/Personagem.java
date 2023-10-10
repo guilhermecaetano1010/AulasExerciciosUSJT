@@ -52,7 +52,7 @@ public class Personagem {
 
     void dormir(){
         if (sono >= 1) {
-            System.out.print(nome + " dormindo");
+            System.out.print(nome + " dormind");
             sono-=1;
             energia = energia + 1 <= 10 ? energia + 1 : 10;
         }
