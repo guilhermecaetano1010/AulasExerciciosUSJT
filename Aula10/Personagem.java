@@ -27,37 +27,42 @@ public class Personagem {
 
     void cacar() {
         if(energia>=2){
-            System.out.println(nome + " caçando");
+            System.out.print(nome + " caçando");
             energia -= 2;
         }
         else{
-            System.out.println(nome + " sem energia para caçar");
+            System.out.print(nome + " sem energia para caçar");
         }
         fome = Math.min(fome + 1, 10);
         sono = Math.min(sono + 1, 10);
+        estado();        
     }
     
     void comer(){
     if (fome >= 1) {
-        System.out.println(nome + " comendo");
+        System.out.print(nome + " comendo");
         energia = Math.min(energia + 1, 10);
         fome -= 1;
     } else{
-        System.out.println(nome + " sem sono");
+        System.out.print(nome + " sem sono");
     }
-    }
+       estado();
+}
+
 
     void dormir(){
         if (sono >= 1) {
-            System.out.println(nome + " dormindo");
+            System.out.print(nome + " dormindo");
             sono-=1;
             energia = energia + 1 <= 10 ? energia + 1 : 10;
         }
         else{
-            System.out.println(nome + " sem sono");
+            System.out.print(nome + " sem sono");
         }
-            
-       
-            
+        estado();
+    
+    }
+    void estado(){
+        System.out.print(/*nome +*/ "  [energia: "+ energia + " fome: " + fome + " sono: " + sono + "]\n");
     }
 }
