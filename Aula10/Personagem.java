@@ -57,7 +57,7 @@ public class Personagem {
             energia = energia + 1 <= 10 ? energia + 1 : 10;
         }
         else{
-            System.out.print(nome + " sem sono");
+            System.out.print(nome + " sem son");
         }
         estado();
     
